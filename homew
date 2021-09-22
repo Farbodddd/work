@@ -1,0 +1,9 @@
+> min.max.range <- function(x){
++      minimum<- min(x) 
++ r <- max(x) - min(x)
++      maximum <- max(x)
++ print(minimum)
++ print(maximum)
++ print(r)}
+> vec.1<- c(10, 20, 50)
+> min.max.range(vec.1)
